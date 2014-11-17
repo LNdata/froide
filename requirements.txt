@@ -9,6 +9,7 @@ pytz==2014.2
 requests==2.2.1
 django-floppyforms==1.1.1
 django_overextends==0.3.0
+django-extensions==1.4.6
 python-magic==0.4.6
 django-tastypie==0.11.0
 python-mimeparse>=0.1.4

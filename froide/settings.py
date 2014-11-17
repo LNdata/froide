@@ -31,6 +31,7 @@ class Base(Configuration):
         'django.contrib.comments',
         'django.contrib.flatpages',
         'django.contrib.sitemaps',
+        'django_extensions',
 
         # external
         'south',
