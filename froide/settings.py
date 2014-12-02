@@ -198,9 +198,10 @@ class Base(Configuration):
 
     # Language code for this installation. All choices can be found here:
     # http://www.i18nguy.com/unicode/language-identifiers.html
-    LANGUAGE_CODE = values.Value('en-us')
+    LANGUAGE_CODE = values.Value('es')
     LANGUAGES = (
         ('en', gettext('English')),
+        ('es', gettext('Spanish')),
         ('fi-fi', gettext('Finnish (Finland)')),
         ('de', gettext('German')),
         ('da-dk', gettext('Danish (Denmark)')),
@@ -330,7 +331,7 @@ class Base(Configuration):
     FROIDE_THEME = None
 
     FROIDE_CONFIG = dict(
-        create_new_publicbody=True,
+        create_new_publicbody=False,
         publicbody_empty=True,
         user_can_hide_web=True,
         public_body_officials_public=True,
