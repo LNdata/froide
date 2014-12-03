@@ -2675,6 +2675,10 @@ msgstr "Tu correo"
 msgid "Your post address"
 msgstr "Tu domicilio postal"
 
+#: froide/foirequest/templates/foirequest/request.html:363
+msgid "This request is private by default."
+msgstr "Este pedido es privado por defecto."
+
 #: froide/foirequest/templates/foirequest/request.html:378
 msgid ""
 "Do you want to make sure that the information you are requesting isn't "
