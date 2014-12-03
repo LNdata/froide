@@ -2503,7 +2503,7 @@ msgstr "Hacer un pedido"
 
 #: froide/foirequest/templates/foirequest/request.html:54
 msgid "Choose a Public Body"
-msgstr "Elija un organismo"
+msgstr "Busque un organismo"
 
 #: froide/foirequest/templates/foirequest/request.html:61
 msgid "To:"
